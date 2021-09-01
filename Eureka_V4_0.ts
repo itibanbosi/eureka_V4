@@ -136,9 +136,11 @@ namespace eureka_blocks {
         }
       case eureka_tlp.B:
         if (mode == onoff.ON) {
-          return pins.digitalWritePin(DigitalPin.P16, 1);
+          pins.digitalWritePin(DigitalPin.P16, 1);
+            return basic.pause(5);
         } else {
-          return pins.digitalWritePin(DigitalPin.P16, 0);
+          pins.digitalWritePin(DigitalPin.P16, 0);
+            return basic.pause(5);
         }
     }
   }
@@ -147,15 +149,19 @@ namespace eureka_blocks {
     switch (pin) {
       case eureka_tlp.A:
         if (mode == onoff.ON) {
-          return pins.digitalWritePin(DigitalPin.P13, 1);
+          pins.digitalWritePin(DigitalPin.P13, 1);
+            return basic.pause(5);
         } else {
-          return pins.digitalWritePin(DigitalPin.P13, 0);
+          pins.digitalWritePin(DigitalPin.P13, 0);
+            return basic.pause(5);
         }
       case eureka_tlp.B:
         if (mode == onoff.ON) {
-          return pins.digitalWritePin(DigitalPin.P15, 1);
+          pins.digitalWritePin(DigitalPin.P15, 1);
+            return basic.pause(5);
         } else {
-          return pins.digitalWritePin(DigitalPin.P15, 0);
+          pins.digitalWritePin(DigitalPin.P15, 0);
+            return basic.pause(5);
         }
     }
   }
@@ -164,15 +170,19 @@ namespace eureka_blocks {
     switch (pin) {
       case eureka_tlp.A:
         if (mode == onoff.ON) {
-          return pins.digitalWritePin(DigitalPin.P0, 1);
+          pins.digitalWritePin(DigitalPin.P0, 1);
+            return basic.pause(5);
         } else {
-          return pins.digitalWritePin(DigitalPin.P0, 0);
+          pins.digitalWritePin(DigitalPin.P0, 0);
+            return basic.pause(5);
         }
       case eureka_tlp.B:
         if (mode == onoff.ON) {
-          return pins.digitalWritePin(DigitalPin.P1, 1);
+          pins.digitalWritePin(DigitalPin.P1, 1);
+            return basic.pause(5);
         } else {
-          return pins.digitalWritePin(DigitalPin.P1, 0);
+          pins.digitalWritePin(DigitalPin.P1, 0);
+            return basic.pause(5);
         }
     }
   }
