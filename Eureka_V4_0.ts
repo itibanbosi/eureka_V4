@@ -129,10 +129,10 @@ namespace eureka_blocks {
       case eureka_tlp.A:
         if (mode == onoff.ON) {
           pins.digitalWritePin(DigitalPin.P14, 1);
-          return basic.pause(2);
+          return basic.pause(10);
         } else {
           pins.digitalWritePin(DigitalPin.P14, 0);
-            return basic.pause(2);
+            return basic.pause(10);
         }
       case eureka_tlp.B:
         if (mode == onoff.ON) {
