@@ -6,7 +6,7 @@
         "core": "*",
         "radio": "*",
         "microphone": "*",
-        "microbit-dstemp": "github:bsiever/microbit-dstemp#v0.1.21"
+        "ds18b20": "github:DFRobot/pxt-ds18b20#v0.1.0"
     },
     "files": [
         "README.md",
@@ -19,7 +19,7 @@
     ],
     "public": true,
     "targetVersions": {
-        "target": "4.0.11",
+        "target": "4.0.16",
         "targetId": "microbit"
     },
     "supportedTargets": [
